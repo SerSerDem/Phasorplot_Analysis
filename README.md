@@ -2,7 +2,7 @@
 
 This repository contains a Python script for spectral phasor analysis of temperature-dependent fluorescence emission spectra.
 
-The script imports fluorescence emission spectra from CSV files, performs spectral normalization, applies wavelength selection (400–550 nm), and converts the processed spectra into spectral phasor coordinates (G, S). The phasor transformation enables a model-free representation of spectral shifts associated with changes in membrane environments.
+The script imports fluorescence emission spectra from CSV files, performs spectral normalization, applies wavelength selection, and converts the processed spectra into spectral phasor coordinates (G, S). The phasor transformation enables a model-free representation of spectral shifts associated with changes in membrane environments.
 
 For each dataset, the workflow generates normalized emission spectra, calculates temperature-resolved phasor trajectories, and applies interpolation to improve comparability across temperature series. Both spectral and phasor data are exported as CSV files for further quantitative analysis. In addition, the script provides visualization of normalized emission spectra and corresponding phasor plots in G–S space, including temperature-dependent trajectories.
 
@@ -28,7 +28,7 @@ Input data must consist of CSV files containing a temperature column and wavelen
 - Import fluorescence emission spectra from CSV files
 - Automatic detection of temperature and wavelength columns
 - Spectral normalization
-- Selection of wavelength range (400–550 nm)
+- Selection of wavelength range 
 - Calculation of spectral phasor coordinates (G, S)
 - Interpolation of temperature series for improved comparability
 - Export of processed spectra and phasor coordinates as CSV files
